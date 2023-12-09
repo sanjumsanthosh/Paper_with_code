@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "paper-with-code"
+version = "0.1.0"
+description = ""
+authors = ["sanjay <44315700+sanjumsanthosh@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "paper_with_code"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+onnx = "^1.15.0"
+torch = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
