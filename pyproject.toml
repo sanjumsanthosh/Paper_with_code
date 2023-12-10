@@ -10,7 +10,12 @@ packages = [{include = "paper_with_code"}]
 python = "^3.11"
 onnx = "^1.15.0"
 torch = "^2.1.1"
+torchvision = "^0.16.1"
+matplotlib = "^3.8.2"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.27.1"
 
 [build-system]
 requires = ["poetry-core"]
